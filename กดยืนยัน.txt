@@ -1,0 +1,34 @@
+{
+"source" : {{1.responseId}},
+"fulfillmentText" : "สวัสดี",
+   fulfillmentMessages: [
+     {
+       platform: 'line',
+       type: 4,
+       payload: {
+       line: {
+  "type": "template",
+  "altText": "this is a confirm template",
+  "template": {
+    "type": "confirm",
+    "actions": [
+      {
+        "type": "message",
+        "label": "ยืนยัน",
+        "text": "ยืนยัน"
+      },
+      {
+        "type": "message",
+        "label": "เปลี่ยนวันที่",
+        "text": "เปลี่ยนวันที่"
+      }
+    ],
+    "text": "เลือกห้อง {{1.queryResult.queryText}} 
+เข้าพักวันที่ 1 มีนาคม 2563 
+โปรดกดปุ่มยืนยัน"
+  }
+}
+     }
+     }
+ ]
+}
