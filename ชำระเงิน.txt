@@ -1,0 +1,90 @@
+{
+  "line": {
+    "contents": {
+      "type": "bubble",
+      "body": {
+        "layout": "vertical",
+        "type": "box",
+        "contents": [
+          {
+            "contents": [
+              {
+                "weight": "regular",
+                "align": "center",
+                "type": "text",
+                "text": "จองห้องพักเรียบร้อยค่ะ ",
+                "size": "sm",
+                "color": "#1F1515"
+              }
+            ],
+            "type": "box",
+            "spacing": "sm",
+            "margin": "lg",
+            "layout": "vertical"
+          },
+          {
+            "type": "separator",
+            "margin": "sm",
+            "color": "#E50B0B"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "align": "center",
+                "color": "#0C0B0B",
+                "size": "sm",
+                "text": "กรุณาชำระเงินทางด้านล่างนะค่ะ",
+                "gravity": "bottom"
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "gravity": "bottom",
+            "align": "center",
+            "weight": "bold",
+            "type": "text",
+            "color": "#0B0A0A",
+            "text": "โปรดชำระเงินภายใน 24 ชม."
+          },
+          {
+            "size": "md",
+            "text": " ส่งหลักฐานการชำระเงินได้ที่ลิ้งนี้ค่ะ ",
+            "align": "center",
+            "color": "#161414",
+            "gravity": "bottom",
+            "weight": "bold",
+            "type": "text"
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "action": {
+              "uri": "https://forms.gle/wttBVsG8K7pQf1Qw8",
+              "label": "Payment",
+              "type": "uri"
+            },
+            "height": "sm",
+            "color": "#E81029",
+            "gravity": "bottom"
+          },
+          {
+            "type": "spacer",
+            "size": "xl"
+          }
+        ],
+        "spacing": "sm"
+      }
+    },
+    "altText": "Flex Message",
+    "type": "flex"
+  }
+}
